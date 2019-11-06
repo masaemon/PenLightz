@@ -1,0 +1,58 @@
+/*!
+ * Bulma v0.0.17 (http://bulma.io) 
+ * Copyright 2016 Jeremy Thomas 
+ * Licensed under MIT (https://github.com/jgthms/bulma/blob/master/LICENSE) 
+ */
+
+
+
+#songle {
+  width: 100%;
+  height: 500px;
+  margin-top: 1rem;
+}
+/*
+#colorpicker-wrap {
+    border-radius: 10px;
+    padding: 10px 5px;
+    margin: 10px;
+}
+*/
+#colorpicker-red, #colorpicker-green, #colorpicker-blue {
+    float: left;
+    clear: left;
+    width: 300px;
+    margin: 9px 10px;
+}
+#colorpicker-swatch {
+    width: 120px;
+    height: 100px;
+    margin-top: 0;
+    margin-left: 10px;
+    background-image: none;
+}
+#colorpicker-red .ui-slider-range {
+    background: #ef2929;
+}
+#colorpicker-red .ui-slider-handle {
+    border-color: #ef2929;
+}
+#colorpicker-green .ui-slider-range {
+    background: #8ae234;
+}
+#colorpicker-green .ui-slider-handle {
+    border-color: #8ae234;
+}
+#colorpicker-blue .ui-slider-range {
+    background: #729fcf;
+}
+#colorpicker-blue .ui-slider-handle {
+    border-color: #729fcf;
+}
+#colorpicker-hex, #colorpicker-rgb {
+    margin: 15px;
+}
+
+#parameter {
+    padding-bottom: 1rem;
+}
